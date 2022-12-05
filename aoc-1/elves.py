@@ -16,6 +16,6 @@ sum_list = []
 for elf in elves:
     sum_list.append(sum(elf))
 
-max(sum_list)
+max(sum_list) #max value in the list
 
 top_3 = sum(sum_list[0:3])
