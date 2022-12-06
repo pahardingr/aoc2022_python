@@ -1,5 +1,5 @@
 with open("input.txt", "r") as aocd2:
-    play_list = aocd2.read().splitlines()
+    play_list = aocd2.read().split()
 
 print(play_list)
 # opp_play = []
